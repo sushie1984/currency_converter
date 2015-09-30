@@ -28,7 +28,7 @@ The **Money::LiveConverter** is a demo gem with focus/exercise on the built-in m
 **Arithmetic Operations (The first Instance is the base currency that is used for the conversion of the second instance):**<br />
  euro + dollar <br />
  euro - dollar <br />
- 3*euro <br />
+ euro*3 <br />
  euro/2 <br />
  dollar > euro <br />
  euro < dollar <br />
