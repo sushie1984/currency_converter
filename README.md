@@ -14,7 +14,7 @@ The **Money::LiveConverter** is a demo gem with focus/exercise on the built-in m
 1. irb <br />
 2. require "money" <br />
 
-**Add/(re)set Conversion Rates (This can be done at any time to update the conversion rates) **: <br />
+**Add or (re)set Conversion Rates (This can be done at any time to update the conversion rates):** <br />
  base_currency = 'EUR' <br />
  cross_rate = {'USD' => 1.12, 'Bitcoin' => 0.0047} <br />
  Money::LiveConverter.conversion_rates(base_currency,cross_rate)
