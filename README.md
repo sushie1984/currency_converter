@@ -10,29 +10,29 @@ The **Money::LiveConverter** is a demo gem with focus/exercise on the built-in m
 
 ## Usage
 
-Init irb with the new gem money: <br />
+**Init irb with the new gem money:** <br />
 1. irb <br />
 2. require "money" <br />
 
 **Add/(re)set Conversion Rates (This can be done at any time to update the conversion rates) **: <br />
-* base_currency = 'EUR' <br />
-* cross_rate = {'USD' => 1.12, 'Bitcoin' => 0.0047} <br />
-* Money::LiveConverter.conversion_rates(base_currency,cross_rate)
+ base_currency = 'EUR' <br />
+ cross_rate = {'USD' => 1.12, 'Bitcoin' => 0.0047} <br />
+ Money::LiveConverter.conversion_rates(base_currency,cross_rate)
 
 **Create Instance:**<br />
-* euro = Money::LiveConverter.new(5.0,'EUR')
+ euro = Money::LiveConverter.new(5.0,'EUR')
 
 **Convert Instance and get a new Instance out of it:**<br />
-* dollar = euro.convert_to('USD')
+ dollar = euro.convert_to('USD')
 
 **Arithmetic Operations (The first Instance is the base currency that is used for the conversion of the second instance):**<br />
-* euro + dollar <br />
-* euro - dollar <br />
-* 3*euro <br />
-* euro/2 <br />
-* dollar > euro <br />
-* euro < dollar <br />
-* dollar == euro
+ euro + dollar <br />
+ euro - dollar <br />
+ 3*euro <br />
+ euro/2 <br />
+ dollar > euro <br />
+ euro < dollar <br />
+ dollar == euro
  
 ## Development
 
