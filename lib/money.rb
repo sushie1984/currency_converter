@@ -11,7 +11,7 @@ module Money
     # Basic Constructor:
     # Call with Money::LiveConverter.new(amount,currency) 
     # params:
-     # +amount+:: Is a positive number reprasenting the money amount of this object
+    # +amount+:: Is a positive number reprasenting the money amount of this object
     # +currency+:: Is a 3 char length based string (ISO 4217) representing 
     #         this object is holding 
     # +options+:: An option hash for future purpose.
